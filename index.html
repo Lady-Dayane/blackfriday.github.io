@@ -5,19 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Friday Lady Dayane | Última Chance 2025</title>
     <meta name="description" content="Análise Corporal por R$247 na Black Friday. Entenda seu corpo, sua mente e seus padrões. Vagas limitadas.">
-    <!-- Meta Pixel -->
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', 'SEU_PIXEL_ID');
-        fbq('track', 'PageView');
-    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Inter', sans-serif; background: #F5E6D3; color: #4A0E2B; line-height: 1.6; }
@@ -27,22 +14,34 @@
         h2 { font-size: 1.8em; margin-bottom: 20px; }
         .hero { background: linear-gradient(135deg, #4A0E2B 0%, #D4725A 100%); color: #fff; padding: 40px 20px; text-align: center; }
         .hero h1 { font-size: 2em; }
+        .hero-img { width: 150px; height: 150px; border-radius: 50%; border: 4px solid #C9A86E; margin: 20px auto; display: block; box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
         .preco { background: #fff; padding: 20px; border-radius: 15px; margin: 20px 0; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
         .preco-antigo { text-decoration: line-through; color: #777; font-size: 1.2em; }
         .preco-novo { color: #4A0E2B; font-size: 3em; font-weight: bold; margin: 10px 0; }
         .cta { display: block; background: #D4725A; color: #fff; text-align: center; padding: 20px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.3em; margin: 20px 0; transition: 0.3s; }
         .cta:hover { background: #4A0E2B; transform: scale(1.02); }
+        .cta-secundario { display: block; background: #fff; color: #4A0E2B; text-align: center; padding: 18px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.1em; margin: 15px 0; border: 2px solid #D4725A; transition: 0.3s; }
+        .cta-secundario:hover { background: #D4725A; color: #fff; }
         .bonus { background: #fff; padding: 20px; border-left: 5px solid #C9A86E; margin: 15px 0; }
         .depoimento { background: #fff; padding: 20px; border-radius: 10px; margin: 15px 0; font-style: italic; }
         .urgencia { background: #4A0E2B; color: #fff; padding: 30px; text-align: center; border-radius: 15px; }
+        .timer { background: #4A0E2B; color: #C9A86E; padding: 25px; text-align: center; border-radius: 15px; margin: 20px 0; }
+        .timer-display { font-size: 2em; font-weight: bold; margin-top: 10px; }
         .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: #fff; padding: 15px 20px; border-radius: 50px; z-index: 1000; }
-        @media(max-width: 600px) { h1 { font-size: 1.8em; } .preco-novo { font-size: 2.5em; } }
+        @media(max-width: 600px) { h1 { font-size: 1.8em; } .preco-novo { font-size: 2.5em; } .timer-display { font-size: 1.5em; } .hero-img { width: 120px; height: 120px; } }
     </style>
 </head>
 <body>
+    <!-- TIMER -->
+    <div class="timer" id="timer">
+        <h2>⏰ A OFERTA ACABA EM:</h2>
+        <div class="timer-display" id="timer-display">CARREGANDO...</div>
+    </div>
+
     <!-- HERO SECTION -->
     <div class="hero">
         <h1>🔥 BLACK FRIDAY LADY DAYANE 🔥</h1>
+        <img src="Lady_Dayane.webp" alt="Lady Dayane - Analista Corporal" class="hero-img">
         <p style="font-size: 1.1em;">A Última Virada de 2025</p>
         <p style="margin-top: 15px;">Transformação profunda por um valor que <strong>NUNCA</strong> mais vai se repetir.</p>
     </div>
@@ -102,14 +101,17 @@
             <p><strong>Não abro mais nenhuma vaga dessas em 2025.</strong></p>
         </div>
 
-        <!-- CTA FINAL -->
+        <!-- CTA DUPLA -->
         <h2 style="text-align: center; margin-top: 30px;">⚠️ A DECISÃO É AGORA</h2>
         <p style="text-align: center; font-size: 1.1em;">
             Seguir mais um mês igual…<br>
             Ou aproveitar a <strong>única chance</strong> de pagar R$ 247 e ter clareza de verdade sobre seu corpo, mente, amor, saúde e dinheiro.
         </p>
         <a href="https://pay.kiwify.com.br/qx5O7fk" class="cta">
-            🔥 GARANTIR MINHA VAGA AGORA 🔥
+            🔥 COMPRAR AGORA POR R$ 247 🔥
+        </a>
+        <a href="https://wa.me/5512991654456?text=Ol%C3%A1%20Lady%20Dayane%2C%20tenho%20d%C3%BAvida%20sobre%20a%20Black%20Friday%20%F0%9F%94%A5" class="cta-secundario">
+            💬 TENHO UMA DÚVIDA (FALE COMIGO)
         </a>
 
         <!-- SOBRE -->
@@ -121,8 +123,33 @@
     </div>
 
     <!-- FLOATING WHATSAPP -->
-    <a href="https://wa.me/5512991654456?text=Ol%C3%A1%20Lady%20Dayane%2C%20quero%20garantir%20minha%20vaga%20Black%20Friday%20por%20R%24%20247%20%F0%9F%94%A5" class="whatsapp">
+    <a href="https://wa.me/5512991654456?text=Ol%C3%A1%20Lady%20Dayane%2C%20tenho%20d%C3%BAvida%20sobre%20a%20Black%20Friday%20%F0%9F%94%A5" class="whatsapp">
         💬 Fale Comigo
     </a>
+
+    <!-- TIMER SCRIPT -->
+    <script>
+        function updateTimer() {
+            const endDate = new Date('2025-11-30T23:59:59').getTime();
+            const now = new Date().getTime();
+            const distance = endDate - now;
+
+            if (distance < 0) {
+                document.getElementById('timer').style.display = 'none';
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('timer-display').innerHTML = 
+                `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
 </body>
 </html>
